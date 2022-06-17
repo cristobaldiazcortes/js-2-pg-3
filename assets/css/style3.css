@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    font-family: 'MedievalSharp', sans-serif;
+}
+p {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+img {
+    width: 40%;
+    border: solid 3px aliceblue;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.password {
+    color: goldenrod;
+    font-size: xx-large;
+}
+.caja-select {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.select-dimensiones {
+    padding-right: 5%;
+    background-color: aliceblue;
+}
+.caja-boton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boton-final {
+    background-color: crimson;
+    color: white;
+    padding: 1%;
+    font-weight: bold;
+    font-family: 'MedievalSharp', sans-serif;
+
+}
